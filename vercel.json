@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js", // or whatever your entry point file is
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/v1/chat/completions",
+      "dest": "/v1/chat/completions"
+    },
+    {
+      "src": "/.*",
+      "dest": "/"
+    }
+  ]
+}
