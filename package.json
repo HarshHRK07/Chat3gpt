@@ -1,0 +1,20 @@
+{
+  "name": "your-express-server",
+  "version": "1.0.0",
+  "description": "Express server for handling chat completions with OpenAI API",
+  "main": "index.js", // or whatever your entry point file is
+  "scripts": {
+    "start": "node index.js" // or whatever your entry point file is
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "gpt-3-encoder": "^1.0.0",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "Your Name",
+  "license": "MIT"
+}
