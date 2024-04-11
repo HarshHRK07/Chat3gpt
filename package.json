@@ -1,10 +1,10 @@
 {
-  "name": "your-express-server",
+  "name": "api",
   "version": "1.0.0",
   "description": "Express server for handling chat completions with OpenAI API",
-  "main": "index.js", // or whatever your entry point file is
+  "main": "index.js", 
   "scripts": {
-    "start": "node index.js" // or whatever your entry point file is
+    "start": "node index.js" 
   },
   "dependencies": {
     "axios": "^0.24.0",
